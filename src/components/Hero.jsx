@@ -1,4 +1,4 @@
-import profilepic from "../assets/sanjaiprofile.jpg";
+import profilepic from "../assets/sanjaiprofile.png";
 import { motion } from "framer-motion";
 
 const containerVariants = {
