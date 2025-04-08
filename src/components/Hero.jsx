@@ -45,13 +45,9 @@ const Hero = () => {
           variants={childVariants}
         >
           👋 Hey there! I’m <b>Sanjai</b> — a passionate and driven <b>Full-Stack Developer</b> who loves building clean, responsive, and impactful web applications.
-          <br /><br />
           Skilled in <b>React.js</b>, <b>Spring Boot</b>, and <b>PostgreSQL</b>, I specialize in turning complex ideas into functional, user-friendly digital experiences.
-          <br /><br />
           Whether it’s crafting smooth user interfaces or developing powerful backend systems, I bring a blend of creativity and logic to every project I take on.
-          <br /><br />
           I’m eager to contribute to real-world solutions, collaborate with great teams, and continuously grow as a developer.
-          <br /><br />
           🚀 Let’s build the future with code!
         </motion.p>
         <motion.a
