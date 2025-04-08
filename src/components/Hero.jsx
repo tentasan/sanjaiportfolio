@@ -8,7 +8,7 @@ const containerVariants = {
     x: 0,
     transition: {
       duration: 0.5,
-      staggerChildren: 0.5, // Fixed Typo
+      staggerChildren: 0.5,
     },
   },
 };
@@ -28,7 +28,10 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.h2 className="text-5xl lg:text-5xl text-white font-bold tracking-tighter" variants={childVariants}>
+        <motion.h2
+          className="text-5xl lg:text-5xl text-white font-bold tracking-tighter"
+          variants={childVariants}
+        >
           SANJAI
         </motion.h2>
         <motion.span
@@ -41,15 +44,15 @@ const Hero = () => {
           className="my-4 max-w-lg py-6 text-lg leading-relaxed text-gray-300"
           variants={childVariants}
         >
-          I am Sanjai, a passionate Full-Stack Developer with expertise in
-          <b> React.js, Spring Boot, and UI/UX design</b>. I enjoy building modern,
-          scalable, and user-friendly applications that enhance user experience.
-          Proficient in <b>Java, PostgreSQL, and Flutter (beginner level)</b>, I have worked
-          on projects ranging from <b>job portals with AI-powered resume matching</b>
-          to <b>digital marketplaces for farmers</b>. Currently, I am exploring
-          <b> AI-driven solutions for code execution visualization</b> to simplify
-          complex programming concepts. Always eager to learn and improve, I strive
-          to create efficient and impactful software solutions.
+          👋 Hey there! I’m <b>Sanjai</b> — a passionate and driven <b>Full-Stack Developer</b> who loves building clean, responsive, and impactful web applications.
+          <br /><br />
+          Skilled in <b>React.js</b>, <b>Spring Boot</b>, and <b>PostgreSQL</b>, I specialize in turning complex ideas into functional, user-friendly digital experiences.
+          <br /><br />
+          Whether it’s crafting smooth user interfaces or developing powerful backend systems, I bring a blend of creativity and logic to every project I take on.
+          <br /><br />
+          I’m eager to contribute to real-world solutions, collaborate with great teams, and continuously grow as a developer.
+          <br /><br />
+          🚀 Let’s build the future with code!
         </motion.p>
         <motion.a
           href="/resume.pdf"
